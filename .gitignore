@@ -1,0 +1,48 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Vercel
+.vercel
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.suo
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
+
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+
+# 构建产物
+knowledge.md
+data/knowledge-base.txt
+
+# npm 缓存
+C/
+.cache/
